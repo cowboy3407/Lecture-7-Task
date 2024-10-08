@@ -1,0 +1,392 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: #ECF2F8;
+    font-family: "Barlow Semi Condensed", sans-serif;
+
+}
+
+
+.box {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    column-gap: 30px;
+    row-gap: 24px;
+    grid-template-areas:
+        "daniel daniel jonathan kira"
+        "jeanette patrick patrick kira"
+    ;
+
+}
+
+
+.daniel {
+    grid-area: daniel;
+    background-color: #733FC8;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: start;
+    flex-direction: column;
+    align-content: center;
+    width: 540px;
+    height: 282px;
+    border-radius: 8px;
+    padding-left: 32px;
+    padding-right: 32px;
+
+}
+
+.jonathan {
+    grid-area: jonathan;
+    background-color: #48556A;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: start;
+    flex-direction: column;
+    align-content: center;
+    border-radius: 8px;
+    padding-left: 32px;
+    padding-right: 32px;
+    width: 255px;
+    height: 282px;
+}
+
+.jeanette {
+    grid-area: jeanette;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: start;
+    flex-direction: column;
+    align-content: center;
+    border-radius: 8px;
+    padding-left: 32px;
+    padding-right: 32px;
+    width: 255px;
+    height: 266px;
+    
+}
+
+
+.patrick {
+    grid-area: patrick;
+    background-color: #19202D;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: start;
+    flex-direction: column;
+    align-content: center;
+    border-radius: 8px;
+    padding-left: 32px;
+    padding-right: 32px;
+    width: 540px;
+    height: 266px;
+}
+
+.kira {
+    grid-area: kira;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: start;
+    flex-direction: column;
+    align-content: center;
+    border-radius: 8px;
+    padding-left: 32px;
+    padding-right: 32px;
+    width: 255px;
+    height: 572px;
+}
+
+
+
+.img1 {
+    border: 2px #A775F1;
+    display: flex;
+    justify-content: start;
+}
+
+.head {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.user {
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 11px;
+    height: 11px;
+    width: 76px;
+    color: white;
+    opacity: 50%;
+}
+
+
+
+.t1 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    width: 476px;
+    height: 72px;
+    color: white;
+    display: block;
+}
+
+.t2 {
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 18px;
+    width: 476px;
+    height: 90px;
+    opacity: 70%;
+    color: #CFCFCF;
+
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 17px;
+}
+
+.name {
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 13px;
+    height: 13px;
+    width: 73px;
+    color: white;
+}
+
+
+.h1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 17px;
+}
+
+
+.name1 {
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 13px;
+    height: 13px;
+    width: 90px;
+    color: rgba(255, 255, 255, 1);
+}
+
+
+
+.user1 {
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 11px;
+    opacity: 50%;
+    width: 90px;
+    height: 11px;
+    color: rgba(255, 255, 255, 1);
+
+}
+
+.tt1 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    width: 191px;
+    height: 72px;
+    color: rgba(255, 255, 255, 1);
+}
+
+.tt2 {
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 18px;
+    width: 191px;
+    height: 90px;
+    opacity: 70%;
+    color: rgba(255, 255, 255, 1);
+}
+
+
+.k1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.ki {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 17px;
+}
+ 
+.kir {
+font-weight: 500;
+font-size: 13px;
+line-height: 13px;
+width: 76px;
+line-height: 13px;
+color: rgba(72, 85, 106, 1);
+}
+
+.gra {
+font-size: 11px;
+line-height: 11px;
+font-weight: 500;
+opacity: 50%;
+width: 76px;
+height: 11px;
+color: rgba(72, 85, 106, 1);
+}
+
+.such {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    width: 191px;
+    height: 72px;
+    color: rgba(72, 85, 106, 1);
+}
+
+.before {
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 18px;
+    width: 191px;
+    height: 378px;
+    opacity: 70%;
+    color: rgba(72, 85, 106, 1);
+}
+
+
+.jean {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.je {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 17px;
+}
+
+.harm {
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 13px;
+    width: 89px;
+    height: 13px;
+    color: rgba(72, 85, 106, 1);
+}
+
+.gradu {
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 11px;
+    width: 89px;
+    height: 11px;
+    color: rgba(72, 85, 106, 1);
+    opacity: 50%;
+}
+
+.an {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    width: 191px;
+    height: 72px;
+    color: rgba(72, 85, 106, 1);
+}
+
+.thank {
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 18px;
+    width: 191px;
+    height: 72px;
+    opacity: 70%;
+    color: rgba(72, 85, 106, 1);
+}
+
+
+.pat {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.patr {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 17px;
+}
+
+.pat1 {
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 13px;
+    width: 79px;
+    height: 13px;
+    color: #FFFFFF;
+}
+
+.pat2 {
+font-weight: 500;
+font-size: 11px;
+line-height: 11px;
+opacity: 50%;
+width: 79px;
+height: 11px;
+color: #FFFFFF;
+}
+
+.awesome {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    width: 476px;
+    height: 72px;
+    color: #FFFFFF;
+}
+
+.the {
+font-weight: 500;
+font-size: 13px;
+line-height: 18px;
+width: 476px;
+height: 72px;
+opacity: 70%;
+color: #FFFFFF;
+}
+
+.img7 {
+border: 2px  #733FC8;
+
+}
+
+
+    
