@@ -43,6 +43,7 @@ body {
     border-radius: 8px;
     padding-left: 32px;
     padding-right: 32px;
+    position: relative;
 
 }
 
@@ -51,14 +52,12 @@ body {
     background-color: #48556A;
     display: flex;
     justify-content: space-evenly;
-    align-items: start;
     flex-direction: column;
     align-content: center;
     border-radius: 8px;
     padding-left: 32px;
     padding-right: 32px;
-    width: 255px;
-    height: 282px;
+    position: relative;
 }
 
 .jeanette {
@@ -66,15 +65,12 @@ body {
     background-color: white;
     display: flex;
     justify-content: space-evenly;
-    align-items: start;
     flex-direction: column;
     align-content: center;
     border-radius: 8px;
     padding-left: 32px;
     padding-right: 32px;
-    width: 255px;
-    height: 266px;
-    
+    position: relative;
 }
 
 
@@ -83,14 +79,12 @@ body {
     background-color: #19202D;
     display: flex;
     justify-content: space-evenly;
-    align-items: start;
     flex-direction: column;
     align-content: center;
     border-radius: 8px;
     padding-left: 32px;
     padding-right: 32px;
-    width: 540px;
-    height: 266px;
+    position: relative;
 }
 
 .kira {
@@ -98,14 +92,12 @@ body {
     background-color: white;
     display: flex;
     justify-content: space-evenly;
-    align-items: start;
     flex-direction: column;
     align-content: center;
     border-radius: 8px;
     padding-left: 32px;
     padding-right: 32px;
-    width: 255px;
-    height: 572px;
+    position: relative;
 }
 
 
@@ -142,6 +134,7 @@ body {
     height: 72px;
     color: white;
     display: block;
+    z-index: 1;
 }
 
 .t2 {
@@ -152,6 +145,7 @@ body {
     height: 90px;
     opacity: 70%;
     color: #CFCFCF;
+    z-index: 1;
 
 }
 
@@ -215,6 +209,7 @@ body {
     width: 191px;
     height: 72px;
     color: rgba(255, 255, 255, 1);
+    z-index: 1;
 }
 
 .tt2 {
@@ -225,6 +220,7 @@ body {
     height: 90px;
     opacity: 70%;
     color: rgba(255, 255, 255, 1);
+    z-index: 1;
 }
 
 
@@ -240,24 +236,24 @@ body {
     align-items: center;
     padding-left: 17px;
 }
- 
+
 .kir {
-font-weight: 500;
-font-size: 13px;
-line-height: 13px;
-width: 76px;
-line-height: 13px;
-color: rgba(72, 85, 106, 1);
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 13px;
+    width: 76px;
+    line-height: 13px;
+    color: rgba(72, 85, 106, 1);
 }
 
 .gra {
-font-size: 11px;
-line-height: 11px;
-font-weight: 500;
-opacity: 50%;
-width: 76px;
-height: 11px;
-color: rgba(72, 85, 106, 1);
+    font-size: 11px;
+    line-height: 11px;
+    font-weight: 500;
+    opacity: 50%;
+    width: 76px;
+    height: 11px;
+    color: rgba(72, 85, 106, 1);
 }
 
 .such {
@@ -277,6 +273,7 @@ color: rgba(72, 85, 106, 1);
     height: 378px;
     opacity: 70%;
     color: rgba(72, 85, 106, 1);
+    z-index: 1;
 }
 
 
@@ -329,6 +326,7 @@ color: rgba(72, 85, 106, 1);
     height: 72px;
     opacity: 70%;
     color: rgba(72, 85, 106, 1);
+    z-index: 1;
 }
 
 
@@ -343,6 +341,7 @@ color: rgba(72, 85, 106, 1);
     flex-direction: column;
     align-items: center;
     padding-left: 17px;
+    z-index: 1;
 }
 
 .pat1 {
@@ -355,13 +354,13 @@ color: rgba(72, 85, 106, 1);
 }
 
 .pat2 {
-font-weight: 500;
-font-size: 11px;
-line-height: 11px;
-opacity: 50%;
-width: 79px;
-height: 11px;
-color: #FFFFFF;
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 11px;
+    opacity: 50%;
+    width: 79px;
+    height: 11px;
+    color: #FFFFFF;
 }
 
 .awesome {
@@ -371,22 +370,125 @@ color: #FFFFFF;
     width: 476px;
     height: 72px;
     color: #FFFFFF;
+    z-index: 1;
 }
 
 .the {
-font-weight: 500;
-font-size: 13px;
-line-height: 18px;
-width: 476px;
-height: 72px;
-opacity: 70%;
-color: #FFFFFF;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 18px;
+    width: 476px;
+    height: 72px;
+    opacity: 70%;
+    color: #FFFFFF;
 }
 
 .img7 {
-border: 2px  #733FC8;
+    border: 2px #733FC8;
+    z-index: 1;
 
 }
 
 
-    
+.b1 {
+    position: absolute;
+    top: 0;
+    width: 104px;
+    height: 102px;
+    left: 356px;
+    z-index: 0;
+}
+
+.b2 {
+    position: absolute;
+    bottom: 0;
+    width: 74px;
+    height: 72px;
+    left: 150px;
+    z-index: 0;
+}
+
+
+.b3 {
+    position: absolute;
+    bottom: 30px;
+    left: 0;
+    z-index: 0;
+    width: 52px;
+    height: 50px;
+}
+
+.b4 {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    z-index: 0;
+    width: 52px;
+    height: 50px;
+}
+
+.b5 {
+    position: absolute;
+    top: 0px;
+    left: 60px;
+    z-index: 0;
+    width: 52px;
+    height: 50px;
+}
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+    .box {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        grid-template-areas:
+            "daniel"
+            "jonathan"
+            "jeanette"
+            "patrick"
+            "kira"
+        ;
+
+
+    }
+
+    .daniel {
+        width: 327px;
+        height: 100%;
+    }
+
+    .jonathan {
+        width: 327px;
+        height: 100%;
+    }
+
+    .jeanette {
+        width: 327px;
+        height: 100%;
+    }
+
+    .jeanette {
+        width: 327px;
+        height: 100%;
+    }
+
+    .patrick {
+        width: 327px;
+        height: 100%;
+    }
+
+    .kira {
+        width: 327px;
+        height: 100%;
+    }
+
+
+}
